@@ -1,0 +1,52 @@
+node_modules/
+
+# Segredos
+.env
+.env.*
+!.env.example
+client_secret_*.json
+config/credentials.json
+config/tokens.json
+config/credentials.backup.json
+
+# Dados locais
+data/
+logs/
+*.db
+
+# Arquivos gerados
+uploads/
+outputs/
+output/
+generated/
+generated-videos/
+cache/
+temp/
+tmp/
+
+# Mídia
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.wav
+*.mp3
+*.flac
+
+# Backups
+*.backup
+*.backup-*
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+Thumbs.db
